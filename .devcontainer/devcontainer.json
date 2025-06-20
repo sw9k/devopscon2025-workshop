@@ -5,5 +5,12 @@
       "hashicorp.terraform",  
       "ms-azuretools.vscode-azureaccount",  
       "ms-vscode-remote.vscode-remote-extensionspack"
-    ]
+    ],
+"features": {
+    "ghcr.io/devcontainers/features/sshd:1": {
+        "version": "latest"
+    }
 }
+
+}
+
