@@ -8,7 +8,8 @@ RUN apt-get update && \
 RUN apt-get update && \
     apt-get install -y \
     curl \
-    unzip
+    unzip \
+    vim
 
 RUN apt-get install -y openssh-server openssh-client
 
