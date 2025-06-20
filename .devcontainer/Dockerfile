@@ -8,9 +8,7 @@ RUN apt-get update && \
 RUN apt-get update && \
     apt-get install -y \
     curl \
-    unzip \
-    openssh-server \
-    openssh-client
+    unzip
 
 # install azure cli
 RUN curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
